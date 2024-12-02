@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+   
+    <header>
+        <nav>
+            <button id="hamburger" aria-label="Toggle Navigation">☰</button>
+            <ul id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section id="home" class="intro">
+        <div class="intro-content">
+            <h1>Welcome to My Portfolio</h1>
+            <hr>
+            <h2>I am a Software Developer</h2>
+
+            <img src="./img2.webp" alt="FSD" style="width:100%">
+            <p> Hi, I'm Mounika, a passionate and creative full-stack web developer. I enjoy turning complex
+                problems into simple, beautiful.
+                Energetic and self-motivated Software Programmer with the
+                passion of innovation, technology and learning. Technical expertise in
+                IReport, Jasper Reports and SQL Server 2008.Worked in Purchase,
+                Stores, Sales, Accounts and Admin Modules of the ERP product.
+                Multitasking ability to plan and prioritize the work and managethe
+                complex projects under risky timeline. Quick Learner and expertise in
+                development and solving issues.
+
+                My interest in web development started back in college, and I've been coding ever since.
+                My expertise lies in both front-end and back-end development, and I love working with technologies
+                like HTML, CSS, JavaScript, Node.js, and React. I'm always eager to learn new technologies and
+                improve my skills to stay up-to-date in this ever-evolving field. Always willing to learn new
+                methodologies.
+            </p>
+
+    </section>
+
+    <section id="skills" class="section">
+        <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <ul id="skills-list">
+            <!-- Dynamic skills list will be populated via JS -->
+        </ul>
+    </section>
+    </section>
+
+    <section id="projects" class="section">
+        <article>
+            <h2>Projects</h2>
+            <div class="project-card">
+                <h3>Registration Form</h3>
+                <p>Simple Login form using HTML , CSS , and JavaScript </p>
+                <button class="project-button" onclick="viewProject('https://www.example.com')">View Project</button>
+            </div>
+        </article>
+        <article>
+            <div class="project-card">
+                <h3>My E-Shop</h3>
+                <p>My E-Shop Electronic Product using HTML , CSS , and JavaScript </p>
+                <button class="project-button" onclick="viewProject('https://www.example.com')">View Project</button>
+            </div>
+        </article>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div id="form-message"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mounika. All rights reserved.. </p>
+    </footer>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
